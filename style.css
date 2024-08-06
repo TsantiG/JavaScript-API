@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+#cargarAPI {
+    margin-top: 3%;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 10%;
+}
+
+.tarjeta {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 23%;
+    max-width: 250px;
+    text-align: center;
+
+}
+
+.tarjeta:hover{
+    background-color: gray;
+}
+
+.tarjeta img {
+    max-width: 100%;
+    display: block;
+}
+
+.tarjeta h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.tarjeta a {
+    text-decoration: none;
+    color: #000;
+}
